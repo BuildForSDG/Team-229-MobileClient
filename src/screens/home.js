@@ -1,8 +1,8 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
 import styles from '../styles';
-import {Text, View, TextInput, KeyboardAvoidingView} from 'react-native';
-import {Button} from 'react-native-elements';
+import { Text, View, TextInput, KeyboardAvoidingView } from 'react-native';
+import { Button } from 'react-native-elements';
 
 export default class LoginScreen extends Component {
   componentDidMount() {}
@@ -18,16 +18,8 @@ export default class LoginScreen extends Component {
         <View style={styles.loginScreenContainer}>
           <View style={styles.loginFormView}>
             <Text style={styles.logoText}>eduForm</Text>
-            <Button
-              buttonStyle={styles.loginButton}
-              onPress={() => this.onSavePress()}
-              title="Start Survey"
-            />
-            <Button
-              buttonStyle={styles.loginButton}
-              onPress={() => this.onSavePress()}
-              title="View Survey Responses"
-            />
+            <Button buttonStyle={styles.loginButton} onPress={() => this.onSavePress()} title="Start Survey" />
+            <Button buttonStyle={styles.loginButton} onPress={() => this.onSavePress()} title="View Survey Responses" />
           </View>
         </View>
       </KeyboardAvoidingView>

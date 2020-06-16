@@ -6,20 +6,20 @@
 export default {
   containerView: {
     flex: 1,
-    backgroundColor: 'orange',
+    backgroundColor: 'orange'
   },
   loginScreenContainer: {
-    flex: 1,
+    flex: 1
   },
   logoText: {
     fontSize: 40,
     fontWeight: 'bold',
     marginTop: 150,
     marginBottom: 30,
-    textAlign: 'center',
+    textAlign: 'center'
   },
   loginFormView: {
-    flex: 1,
+    flex: 1
   },
   loginFormTextInput: {
     height: 43,
@@ -32,7 +32,7 @@ export default {
     marginLeft: 15,
     marginRight: 15,
     marginTop: 5,
-    marginBottom: 5,
+    marginBottom: 5
   },
   loginButton: {
     backgroundColor: '#000000',
@@ -41,7 +41,7 @@ export default {
     height: 45,
     marginTop: 10,
     marginLeft: 15,
-    marginRight: 15,
+    marginRight: 15
   },
   surveyButton: {
     backgroundColor: '#000000',
@@ -50,11 +50,11 @@ export default {
     height: 100,
     marginTop: 10,
     marginLeft: 15,
-    marginRight: 15,
+    marginRight: 15
   },
   fbLoginButton: {
     height: 45,
     marginTop: 10,
-    backgroundColor: 'transparent',
-  },
+    backgroundColor: 'transparent'
+  }
 };
