@@ -1,0 +1,1629 @@
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2020-06-15 16:08:13
+count workspace : /home/ssensalo/Desktop/BuildforSDG/eduFormMobile
+total files : 1593
+total code lines : 38908
+total comment lines : 9626
+total blank lines : 4021
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |            .js|            136|             20|             11|   0.35|
+   |          .json|           8674|              0|              0|     22|
+   |               |            321|             17|             55|   0.83|
+   |           .bat|             42|              0|              9|   0.11|
+   |        .gradle|            124|            120|             26|   0.32|
+   |    .properties|            458|              3|              5|    1.2|
+   |         .plist|            158|              0|              0|   0.41|
+   |             .m|            106|              0|             26|   0.27|
+   |       .pbxproj|            764|             29|             14|    2.0|
+   |             .h|              5|              0|              3|  0.013|
+   |           .bzl|             16|              0|              3|  0.041|
+   |           .pro|              9|              1|              1|  0.023|
+   |           .xib|             42|              0|              0|   0.11|
+   |      .xcscheme|            176|              0|              0|   0.45|
+   |           .bin|              1|              0|              0| 0.0026|
+   |          .lock|           5209|             15|           1218|     13|
+   |           .xml|           5446|              4|           2355|     14|
+   |           .txt|           3611|              0|              0|    9.3|
+   |          .java|          13609|           9417|            295|     35|
+   |          .gson|              1|              0|              0| 0.0026|
+   -------------------------------------------------------------------------
+.buckconfig, code is 4, comment is 1, blank is 2.
+.eslintrc.js, code is 4, comment is 0, blank is 0.
+.flowconfig, code is 49, comment is 13, blank is 13.
+.gitattributes, code is 1, comment is 0, blank is 0.
+.gitignore, code is 51, comment is 1, blank is 8.
+.prettierrc.js, code is 6, comment is 0, blank is 0.
+.watchmanconfig, code is 1, comment is 0, blank is 0.
+__tests__/App-test.js, code is 7, comment is 4, blank is 3.
+android/.gradle/6.0.1/executionHistory/executionHistory.bin, it is a binary file.
+android/.gradle/6.0.1/executionHistory/executionHistory.lock, it is a binary file.
+android/.gradle/6.0.1/fileChanges/last-build.bin, code is 1, comment is 0, blank is 0.
+android/.gradle/6.0.1/fileContent/fileContent.lock, it is a binary file.
+android/.gradle/6.0.1/fileHashes/fileHashes.bin, it is a binary file.
+android/.gradle/6.0.1/fileHashes/fileHashes.lock, it is a binary file.
+android/.gradle/6.0.1/fileHashes/resourceHashesCache.bin, it is a binary file.
+android/.gradle/6.0.1/gc.properties, code is 0, comment is 0, blank is 0.
+android/.gradle/6.0.1/javaCompile/classAnalysis.bin, it is a binary file.
+android/.gradle/6.0.1/javaCompile/javaCompile.lock, it is a binary file.
+android/.gradle/6.0.1/javaCompile/taskHistory.bin, it is a binary file.
+android/.gradle/buildOutputCleanup/buildOutputCleanup.lock, it is a binary file.
+android/.gradle/buildOutputCleanup/cache.properties, code is 2, comment is 0, blank is 0.
+android/.gradle/buildOutputCleanup/outputFiles.bin, it is a binary file.
+android/.gradle/vcs-1/gc.properties, code is 0, comment is 0, blank is 0.
+android/app/_BUCK, code is 46, comment is 1, blank is 9.
+android/app/build.gradle, code is 92, comment is 115, blank is 22.
+android/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/activity/R.java, code is 205, comment is 6, blank is 12.
+android/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/appcompat/R.java, code is 1695, comment is 6, blank is 15.
+android/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/appcompat/resources/R.java, code is 230, comment is 6, blank is 12.
+android/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/arch/core/R.java, code is 4, comment is 6, blank is 2.
+android/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/core/R.java, code is 205, comment is 6, blank is 12.
+android/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/cursoradapter/R.java, code is 4, comment is 6, blank is 2.
+android/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/customview/R.java, code is 165, comment is 6, blank is 12.
+android/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/drawerlayout/R.java, code is 165, comment is 6, blank is 12.
+android/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/fragment/R.java, code is 205, comment is 6, blank is 12.
+android/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/interpolator/R.java, code is 4, comment is 6, blank is 2.
+android/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/lifecycle/livedata/core/R.java, code is 4, comment is 6, blank is 2.
+android/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/lifecycle/livedata/R.java, code is 4, comment is 6, blank is 2.
+android/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/lifecycle/R.java, code is 4, comment is 6, blank is 2.
+android/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/lifecycle/viewmodel/R.java, code is 4, comment is 6, blank is 2.
+android/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/loader/R.java, code is 165, comment is 6, blank is 12.
+android/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/savedstate/R.java, code is 4, comment is 6, blank is 2.
+android/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/swiperefreshlayout/R.java, code is 165, comment is 6, blank is 12.
+android/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/vectordrawable/animated/R.java, code is 205, comment is 6, blank is 12.
+android/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/vectordrawable/R.java, code is 205, comment is 6, blank is 12.
+android/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/versionedparcelable/R.java, code is 4, comment is 6, blank is 2.
+android/app/build/generated/not_namespaced_r_class_sources/debug/r/androidx/viewpager/R.java, code is 165, comment is 6, blank is 12.
+android/app/build/generated/not_namespaced_r_class_sources/debug/r/com/eduformmobile/R.java, code is 2112, comment is 9167, blank is 2.
+android/app/build/generated/not_namespaced_r_class_sources/debug/r/com/facebook/drawee/backends/pipeline/R.java, code is 116, comment is 6, blank is 5.
+android/app/build/generated/not_namespaced_r_class_sources/debug/r/com/facebook/drawee/R.java, code is 116, comment is 6, blank is 5.
+android/app/build/generated/not_namespaced_r_class_sources/debug/r/com/facebook/fbcore/R.java, code is 4, comment is 6, blank is 2.
+android/app/build/generated/not_namespaced_r_class_sources/debug/r/com/facebook/flipper/plugins/fresco/R.java, code is 1798, comment is 6, blank is 15.
+android/app/build/generated/not_namespaced_r_class_sources/debug/r/com/facebook/flipper/plugins/network/R.java, code is 1696, comment is 6, blank is 15.
+android/app/build/generated/not_namespaced_r_class_sources/debug/r/com/facebook/flipper/R.java, code is 1696, comment is 6, blank is 15.
+android/app/build/generated/not_namespaced_r_class_sources/debug/r/com/facebook/fresco/flipper/R.java, code is 116, comment is 6, blank is 5.
+android/app/build/generated/not_namespaced_r_class_sources/debug/r/com/facebook/fresco/stetho/R.java, code is 116, comment is 6, blank is 5.
+android/app/build/generated/not_namespaced_r_class_sources/debug/r/com/facebook/imagepipeline/backends/okhttp3/R.java, code is 4, comment is 6, blank is 2.
+android/app/build/generated/not_namespaced_r_class_sources/debug/r/com/facebook/imagepipeline/R.java, code is 4, comment is 6, blank is 2.
+android/app/build/generated/not_namespaced_r_class_sources/debug/r/com/facebook/imagepipelinebase/R.java, code is 4, comment is 6, blank is 2.
+android/app/build/generated/not_namespaced_r_class_sources/debug/r/com/facebook/nativefilters/R.java, code is 4, comment is 6, blank is 2.
+android/app/build/generated/not_namespaced_r_class_sources/debug/r/com/facebook/nativeimagetranscoder/R.java, code is 4, comment is 6, blank is 2.
+android/app/build/generated/not_namespaced_r_class_sources/debug/r/com/facebook/react/R.java, code is 1818, comment is 6, blank is 15.
+android/app/build/generated/not_namespaced_r_class_sources/debug/r/com/facebook/soloader/R.java, code is 4, comment is 6, blank is 2.
+android/app/build/generated/not_namespaced_r_class_sources/debug/r/org/webkit/androidjsc/R.java, code is 4, comment is 6, blank is 2.
+android/app/build/generated/res/resValues/debug/values/gradleResValues.xml, code is 5, comment is 2, blank is 3.
+android/app/build/generated/rncli/src/main/java/com/facebook/react/PackageList.java, code is 47, comment is 0, blank is 15.
+android/app/build/generated/source/buildConfig/debug/com/eduformmobile/BuildConfig.java, code is 9, comment is 3, blank is 1.
+android/app/build/intermediates/annotation_processor_list/debug/annotationProcessors.json, code is 1, comment is 0, blank is 0.
+android/app/build/intermediates/apk_list/debug/mainApkListPersistenceDebug/apk-list.gson, code is 1, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/debug.json, code is 3211, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-af.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-am.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-ar.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-as.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-az.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-b+sr+Latn.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-be.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-bg.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-bn.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-bs.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-ca.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-cs.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-da.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-de.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-el.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-en-rAU.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-en-rCA.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-en-rGB.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-en-rIN.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-en-rXC.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-es-rUS.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-es.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-et.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-eu.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-fa.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-fi.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-fr-rCA.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-fr.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-gl.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-gu.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-h720dp-v13.json, code is 19, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-hdpi-v4.json, code is 20, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-hi.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-hr.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-hu.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-hy.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-in.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-is.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-it.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-iw.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-ja.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-ka.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-kk.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-km.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-kn.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-ko.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-ky.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-land.json, code is 19, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-large-v4.json, code is 19, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-ldltr-v21.json, code is 19, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-lo.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-lt.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-lv.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-mk.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-ml.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-mn.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-mr.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-ms.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-my.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-nb.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-ne.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-night-v8.json, code is 19, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-nl.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-or.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-pa.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-pl.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-port.json, code is 19, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-pt-rBR.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-pt-rPT.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-pt.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-ro.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-ru.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-si.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-sk.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-sl.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-sq.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-sr.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-sv.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-sw.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-sw600dp-v13.json, code is 19, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-ta.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-te.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-th.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-tl.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-tr.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-uk.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-ur.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-uz.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-v16.json, code is 38, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-v17.json, code is 20, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-v18.json, code is 19, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-v21.json, code is 47, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-v22.json, code is 20, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-v23.json, code is 20, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-v24.json, code is 19, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-v25.json, code is 20, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-v26.json, code is 20, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-v28.json, code is 20, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-vi.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-watch-v20.json, code is 20, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-watch-v21.json, code is 20, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-xlarge-v4.json, code is 19, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-zh-rCN.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-zh-rHK.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-zh-rTW.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values-zu.json, code is 36, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/multi-v2/values.json, code is 120, comment is 0, blank is 0.
+android/app/build/intermediates/blame/res/debug/single/debug.json, code is 1738, comment is 0, blank is 0.
+android/app/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/AndroidManifest.xml, code is 35, comment is 0, blank is 5.
+android/app/build/intermediates/bundle_manifest/debug/processDebugManifest/bundle-manifest/output.json, code is 1, comment is 0, blank is 0.
+android/app/build/intermediates/compatible_screen_manifest/debug/createDebugCompatibleScreenManifests/out/output.json, code is 1, comment is 0, blank is 0.
+android/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex, it is a binary file.
+android/app/build/intermediates/external_libs_dex/debug/mergeExtDexDebug/out/classes.dex, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/merge-state, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/+CcVmPM4tLDaAS0HLqVThjBb_Dg=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/+FV2zlsjxGC11xjj+mB3BH0SveE=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/16i8gph9raB6CtRyjnbWN+vFuKI=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/2ooXlGB6nluHp7uTyWNmTus3CzE=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/3FWzB44tUHH0lHpZ2bLz84a_s5M=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/596OjNf3Y7VtnzEZiDVdVzCOmFE=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/6A97gzVdV53qg+Ndcwq6GqShmTU=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/6bjmurMVUfX6255mCzkxov1Q_Mg=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/6E7kP90nqvOKZObRIAzMok0KSPM=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/6sM_5hrv_hgemW4tHfuqg5ojCBw=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/82ndJWezzzB24r2Cj19oXQaxP88=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/9BzO3SVsgAe1NwKB0bbPeic8QFQ=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/_Jg7dL9ulGfyjoAFX5SDN1fSXW8=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/abLiMzFPIB2iKdozg89mLyYjphY=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/aYLdhhnkDVK6cNWTDMDOEw+jITg=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/B6tnHeW6_uvY9_lC_oE9VXJXtAg=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/D7MVMLnTCM3_NkRqA1A8vKA6EDo=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/e8fL7_+AoDpAwhx5Nngwc7xTHaE=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/eMHDW7+lQ6XynVeZpXJEuogrJz4=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/ewXplorkXWBxVdTdctR2aMlFzPE=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/fkmbXQcJ17f_xAvSrDGrEs1yGJw=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/fVozquPAbBnJQHEanUnVNiE9rzg=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/fzNDAYJeq0ZLV+_I6Ra_OK+XPic=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/g+3nSHkTUvr3w4_yOKgox2NIotU=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/hf0pxg1iiNonc5rVFhFtAo6fbNk=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/HRK9AzcirxaK8H+nH+4ckEnlj48=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/jDtmbX0x619REvEDpgUaKc1VQNI=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/m+RSF4I4G3cmXjHs4YuPXgoiBP0=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Mkb11lVMlVjAVNoURm8EVj3U+Sg=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/mlgqww3Pn2F6teT4rOn86A_rUQ0=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/mqazS6hn_43Sys0CMLfbiZ+IKh8=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/OlPnKRkWv6+ihn640o0KF54eEZg=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/P9xhIHTzH8FtQ4F_dj0FCx+ZzR0=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Q11c3kDodz+uBIiPZ5HZoh934So=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/qyV8CbKD21g9hFyB1O6IwHiir78=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/QZjh3wtt+8RXjXR91lcWjas3LFI=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/RJVAX_75MOeMLjUTyggn58nXxGM=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Siiy+fZTHKFaxKM39J1VXQw4efA=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/T43toB4GlrPNKz8pOTE9+TwIU5Y=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/TK2v1oDHFzdJaKBx3SN8htCPPTw=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/U4xEl1NIjLAOMMsOcW_NPm1Lpfo=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/u5+BWxhGwzKNI17AvHmvST7orSc=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/uAIzhKEYtdCCat5aqf69zSfeb8s=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/UG55CFlt7AjbGVAIKiXLRCM2OUM=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/UjwIsn0_w843uPnfwCIsxhYcfO8=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/vp+H45thfY9hJTZz9Njwj9ZX9Kc=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/vS1FvRy1isNMva0oUJCcU5CCntc=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/X5hIQILfqSgQyBlB99VQuZ0EXGE=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/XeCpbYkUxbRn+S2RFpFqXLl93t4=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/YAEPrkawD0t0GHZL1dTAEXVrkGk=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/yF5HriDc+EDHFtesA02c_Yc+fUI=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Zvm5qdMVHna+s7Ls4UE+Q3BhVcg=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/merge-state, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/+CcVmPM4tLDaAS0HLqVThjBb_Dg=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/+FV2zlsjxGC11xjj+mB3BH0SveE=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/16i8gph9raB6CtRyjnbWN+vFuKI=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/2ooXlGB6nluHp7uTyWNmTus3CzE=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/3FWzB44tUHH0lHpZ2bLz84a_s5M=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/596OjNf3Y7VtnzEZiDVdVzCOmFE=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/6A97gzVdV53qg+Ndcwq6GqShmTU=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/6bjmurMVUfX6255mCzkxov1Q_Mg=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/6E7kP90nqvOKZObRIAzMok0KSPM=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/6sM_5hrv_hgemW4tHfuqg5ojCBw=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/82ndJWezzzB24r2Cj19oXQaxP88=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/9BzO3SVsgAe1NwKB0bbPeic8QFQ=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/_Jg7dL9ulGfyjoAFX5SDN1fSXW8=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/abLiMzFPIB2iKdozg89mLyYjphY=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/aYLdhhnkDVK6cNWTDMDOEw+jITg=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/B6tnHeW6_uvY9_lC_oE9VXJXtAg=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/D7MVMLnTCM3_NkRqA1A8vKA6EDo=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/e8fL7_+AoDpAwhx5Nngwc7xTHaE=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/eMHDW7+lQ6XynVeZpXJEuogrJz4=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/ewXplorkXWBxVdTdctR2aMlFzPE=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/fkmbXQcJ17f_xAvSrDGrEs1yGJw=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/fVozquPAbBnJQHEanUnVNiE9rzg=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/fzNDAYJeq0ZLV+_I6Ra_OK+XPic=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/g+3nSHkTUvr3w4_yOKgox2NIotU=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/hf0pxg1iiNonc5rVFhFtAo6fbNk=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/HRK9AzcirxaK8H+nH+4ckEnlj48=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/jDtmbX0x619REvEDpgUaKc1VQNI=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/m+RSF4I4G3cmXjHs4YuPXgoiBP0=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/Mkb11lVMlVjAVNoURm8EVj3U+Sg=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/mlgqww3Pn2F6teT4rOn86A_rUQ0=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/mqazS6hn_43Sys0CMLfbiZ+IKh8=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/OlPnKRkWv6+ihn640o0KF54eEZg=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/P9xhIHTzH8FtQ4F_dj0FCx+ZzR0=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/Q11c3kDodz+uBIiPZ5HZoh934So=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/qyV8CbKD21g9hFyB1O6IwHiir78=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/QZjh3wtt+8RXjXR91lcWjas3LFI=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/RJVAX_75MOeMLjUTyggn58nXxGM=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/Siiy+fZTHKFaxKM39J1VXQw4efA=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/T43toB4GlrPNKz8pOTE9+TwIU5Y=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/TK2v1oDHFzdJaKBx3SN8htCPPTw=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/U4xEl1NIjLAOMMsOcW_NPm1Lpfo=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/u5+BWxhGwzKNI17AvHmvST7orSc=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/uAIzhKEYtdCCat5aqf69zSfeb8s=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/UG55CFlt7AjbGVAIKiXLRCM2OUM=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/UjwIsn0_w843uPnfwCIsxhYcfO8=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/vp+H45thfY9hJTZz9Njwj9ZX9Kc=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/vS1FvRy1isNMva0oUJCcU5CCntc=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/X5hIQILfqSgQyBlB99VQuZ0EXGE=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/XeCpbYkUxbRn+S2RFpFqXLl93t4=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/YAEPrkawD0t0GHZL1dTAEXVrkGk=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/yF5HriDc+EDHFtesA02c_Yc+fUI=, it is a binary file.
+android/app/build/intermediates/incremental/debug-mergeNativeLibs/zip-cache/Zvm5qdMVHna+s7Ls4UE+Q3BhVcg=, it is a binary file.
+android/app/build/intermediates/incremental/mergeDebugAssets/merger.xml, code is 2, comment is 0, blank is 0.
+android/app/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml, code is 2, comment is 0, blank is 0.
+android/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties, code is 435, comment is 0, blank is 0.
+android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml, code is 2536, comment is 0, blank is 815.
+android/app/build/intermediates/incremental/mergeDebugResources/merger.xml, code is 2755, comment is 0, blank is 1515.
+android/app/build/intermediates/incremental/mergeDebugShaders/merger.xml, code is 2, comment is 0, blank is 0.
+android/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt, code is 4, comment is 0, blank is 0.
+android/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/1xM8D39GUP3o6ZfKsWqFyhxFaeU=, it is a binary file.
+android/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/tgFWWHqe1NqSS59DdUX_nZlYCGw=, it is a binary file.
+android/app/build/intermediates/instant_app_manifest/debug/AndroidManifest.xml, code is 36, comment is 0, blank is 5.
+android/app/build/intermediates/instant_app_manifest/debug/output.json, code is 1, comment is 0, blank is 0.
+android/app/build/intermediates/javac/debug/classes/androidx/activity/R$attr.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/activity/R$color.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/activity/R$dimen.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/activity/R$drawable.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/activity/R$id.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/activity/R$integer.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/activity/R$layout.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/activity/R$string.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/activity/R$style.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/activity/R$styleable.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/activity/R.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/appcompat/R$anim.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/appcompat/R$attr.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/appcompat/R$bool.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/appcompat/R$color.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/appcompat/R$dimen.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/appcompat/R$drawable.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/appcompat/R$id.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/appcompat/R$integer.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/appcompat/R$interpolator.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/appcompat/R$layout.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/appcompat/R$string.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/appcompat/R$style.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/appcompat/R$styleable.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/appcompat/R.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/appcompat/resources/R$attr.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/appcompat/resources/R$color.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/appcompat/resources/R$dimen.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/appcompat/resources/R$drawable.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/appcompat/resources/R$id.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/appcompat/resources/R$integer.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/appcompat/resources/R$layout.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/appcompat/resources/R$string.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/appcompat/resources/R$style.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/appcompat/resources/R$styleable.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/appcompat/resources/R.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/arch/core/R.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/core/R$attr.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/core/R$color.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/core/R$dimen.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/core/R$drawable.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/core/R$id.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/core/R$integer.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/core/R$layout.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/core/R$string.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/core/R$style.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/core/R$styleable.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/core/R.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/cursoradapter/R.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/customview/R$attr.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/customview/R$color.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/customview/R$dimen.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/customview/R$drawable.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/customview/R$id.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/customview/R$integer.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/customview/R$layout.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/customview/R$string.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/customview/R$style.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/customview/R$styleable.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/customview/R.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/drawerlayout/R$attr.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/drawerlayout/R$color.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/drawerlayout/R$dimen.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/drawerlayout/R$drawable.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/drawerlayout/R$id.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/drawerlayout/R$integer.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/drawerlayout/R$layout.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/drawerlayout/R$string.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/drawerlayout/R$style.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/drawerlayout/R$styleable.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/drawerlayout/R.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/fragment/R$attr.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/fragment/R$color.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/fragment/R$dimen.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/fragment/R$drawable.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/fragment/R$id.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/fragment/R$integer.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/fragment/R$layout.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/fragment/R$string.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/fragment/R$style.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/fragment/R$styleable.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/fragment/R.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/interpolator/R.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/lifecycle/livedata/core/R.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/lifecycle/livedata/R.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/lifecycle/R.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/lifecycle/viewmodel/R.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/loader/R$attr.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/loader/R$color.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/loader/R$dimen.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/loader/R$drawable.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/loader/R$id.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/loader/R$integer.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/loader/R$layout.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/loader/R$string.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/loader/R$style.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/loader/R$styleable.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/loader/R.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/savedstate/R.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/swiperefreshlayout/R$attr.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/swiperefreshlayout/R$color.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/swiperefreshlayout/R$dimen.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/swiperefreshlayout/R$drawable.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/swiperefreshlayout/R$id.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/swiperefreshlayout/R$integer.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/swiperefreshlayout/R$layout.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/swiperefreshlayout/R$string.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/swiperefreshlayout/R$style.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/swiperefreshlayout/R$styleable.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/swiperefreshlayout/R.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/vectordrawable/animated/R$attr.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/vectordrawable/animated/R$color.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/vectordrawable/animated/R$dimen.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/vectordrawable/animated/R$drawable.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/vectordrawable/animated/R$id.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/vectordrawable/animated/R$integer.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/vectordrawable/animated/R$layout.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/vectordrawable/animated/R$string.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/vectordrawable/animated/R$style.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/vectordrawable/animated/R$styleable.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/vectordrawable/animated/R.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/vectordrawable/R$attr.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/vectordrawable/R$color.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/vectordrawable/R$dimen.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/vectordrawable/R$drawable.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/vectordrawable/R$id.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/vectordrawable/R$integer.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/vectordrawable/R$layout.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/vectordrawable/R$string.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/vectordrawable/R$style.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/vectordrawable/R$styleable.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/vectordrawable/R.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/versionedparcelable/R.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/viewpager/R$attr.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/viewpager/R$color.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/viewpager/R$dimen.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/viewpager/R$drawable.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/viewpager/R$id.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/viewpager/R$integer.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/viewpager/R$layout.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/viewpager/R$string.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/viewpager/R$style.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/viewpager/R$styleable.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/androidx/viewpager/R.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/eduformmobile/BuildConfig.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/eduformmobile/MainActivity.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/eduformmobile/MainApplication$1.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/eduformmobile/MainApplication.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/eduformmobile/R$anim.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/eduformmobile/R$attr.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/eduformmobile/R$bool.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/eduformmobile/R$color.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/eduformmobile/R$dimen.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/eduformmobile/R$drawable.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/eduformmobile/R$id.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/eduformmobile/R$integer.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/eduformmobile/R$interpolator.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/eduformmobile/R$layout.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/eduformmobile/R$mipmap.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/eduformmobile/R$string.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/eduformmobile/R$style.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/eduformmobile/R$styleable.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/eduformmobile/R$xml.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/eduformmobile/R.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/eduformmobile/ReactNativeFlipper$1.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/eduformmobile/ReactNativeFlipper$2$1.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/eduformmobile/ReactNativeFlipper$2.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/eduformmobile/ReactNativeFlipper.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/drawee/backends/pipeline/R$attr.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/drawee/backends/pipeline/R$id.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/drawee/backends/pipeline/R$styleable.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/drawee/backends/pipeline/R.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/drawee/R$attr.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/drawee/R$id.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/drawee/R$styleable.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/drawee/R.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/fbcore/R.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/flipper/plugins/fresco/R$anim.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/flipper/plugins/fresco/R$attr.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/flipper/plugins/fresco/R$bool.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/flipper/plugins/fresco/R$color.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/flipper/plugins/fresco/R$dimen.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/flipper/plugins/fresco/R$drawable.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/flipper/plugins/fresco/R$id.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/flipper/plugins/fresco/R$integer.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/flipper/plugins/fresco/R$interpolator.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/flipper/plugins/fresco/R$layout.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/flipper/plugins/fresco/R$string.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/flipper/plugins/fresco/R$style.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/flipper/plugins/fresco/R$styleable.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/flipper/plugins/fresco/R.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/flipper/plugins/network/R$anim.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/flipper/plugins/network/R$attr.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/flipper/plugins/network/R$bool.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/flipper/plugins/network/R$color.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/flipper/plugins/network/R$dimen.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/flipper/plugins/network/R$drawable.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/flipper/plugins/network/R$id.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/flipper/plugins/network/R$integer.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/flipper/plugins/network/R$interpolator.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/flipper/plugins/network/R$layout.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/flipper/plugins/network/R$string.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/flipper/plugins/network/R$style.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/flipper/plugins/network/R$styleable.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/flipper/plugins/network/R.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/flipper/R$anim.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/flipper/R$attr.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/flipper/R$bool.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/flipper/R$color.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/flipper/R$dimen.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/flipper/R$drawable.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/flipper/R$id.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/flipper/R$integer.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/flipper/R$interpolator.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/flipper/R$layout.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/flipper/R$string.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/flipper/R$style.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/flipper/R$styleable.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/flipper/R.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/fresco/flipper/R$attr.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/fresco/flipper/R$id.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/fresco/flipper/R$styleable.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/fresco/flipper/R.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/fresco/stetho/R$attr.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/fresco/stetho/R$id.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/fresco/stetho/R$styleable.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/fresco/stetho/R.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/imagepipeline/backends/okhttp3/R.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/imagepipeline/R.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/imagepipelinebase/R.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/nativefilters/R.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/nativeimagetranscoder/R.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/react/PackageList.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/react/R$anim.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/react/R$attr.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/react/R$bool.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/react/R$color.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/react/R$dimen.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/react/R$drawable.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/react/R$id.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/react/R$integer.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/react/R$layout.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/react/R$string.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/react/R$style.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/react/R$styleable.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/react/R$xml.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/react/R.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/com/facebook/soloader/R.class, it is a binary file.
+android/app/build/intermediates/javac/debug/classes/org/webkit/androidjsc/R.class, it is a binary file.
+android/app/build/intermediates/manifest_merge_blame_file/debug/manifest-merger-blame-debug-report.txt, code is 68, comment is 0, blank is 0.
+android/app/build/intermediates/merged_java_res/debug/out.jar, it is a binary file.
+android/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml, code is 35, comment is 0, blank is 5.
+android/app/build/intermediates/merged_manifests/debug/output.json, code is 1, comment is 0, blank is 0.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libc++_shared.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libevent-2.1.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libevent_core-2.1.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libevent_extra-2.1.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libfb.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libfbjni.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libflipper.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libfolly_futures.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libfolly_json.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libglog.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libglog_init.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libhermes-executor-debug.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libhermes-executor-release.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libhermes-inspector.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libimagepipeline.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libjsc.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libjscexecutor.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libjsijniprofiler.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libjsinspector.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libnative-filters.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libnative-imagetranscoder.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libreactnativeblob.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libreactnativejni.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/libyoga.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libc++_shared.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libevent-2.1.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libevent_core-2.1.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libevent_extra-2.1.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libfb.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libfbjni.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libflipper.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libfolly_futures.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libfolly_json.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libglog.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libglog_init.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libhermes-executor-debug.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libhermes-executor-release.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libhermes-inspector.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libimagepipeline.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libjsc.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libjscexecutor.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libjsijniprofiler.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libjsinspector.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libnative-filters.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libnative-imagetranscoder.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libreactnativeblob.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libreactnativejni.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/armeabi-v7a/libyoga.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libc++_shared.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libevent-2.1.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libevent_core-2.1.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libevent_extra-2.1.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libfb.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libfbjni.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libflipper.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libfolly_futures.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libfolly_json.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libglog.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libglog_init.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libhermes-executor-debug.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libhermes-executor-release.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libhermes-inspector.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libimagepipeline.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libjsc.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libjscexecutor.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libjsijniprofiler.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libjsinspector.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libnative-filters.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libnative-imagetranscoder.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libreactnativeblob.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libreactnativejni.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/x86/libyoga.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libc++_shared.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libevent-2.1.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libevent_core-2.1.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libevent_extra-2.1.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libfb.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libfbjni.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libflipper.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libfolly_futures.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libfolly_json.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libglog.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libglog_init.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libhermes-executor-debug.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libhermes-executor-release.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libhermes-inspector.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libimagepipeline.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libjsc.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libjscexecutor.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libjsijniprofiler.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libjsinspector.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libnative-filters.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libnative-imagetranscoder.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libreactnativeblob.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libreactnativejni.so, it is a binary file.
+android/app/build/intermediates/merged_native_libs/debug/out/lib/x86_64/libyoga.so, it is a binary file.
+android/app/build/intermediates/metadata_feature_manifest/debug/processDebugManifest/metadata-feature/output.json, code is 1, comment is 0, blank is 0.
+android/app/build/intermediates/processed_res/debug/processDebugResources/out/output.json, code is 1, comment is 0, blank is 0.
+android/app/build/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_, it is a binary file.
+android/app/build/intermediates/res/merged/debug/anim_abc_fade_in.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/anim_abc_fade_out.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/anim_abc_grow_fade_in_from_bottom.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/anim_abc_popup_enter.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/anim_abc_popup_exit.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/anim_abc_shrink_fade_out_from_bottom.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/anim_abc_slide_in_bottom.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/anim_abc_slide_in_top.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/anim_abc_slide_out_bottom.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/anim_abc_slide_out_top.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/anim_abc_tooltip_enter.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/anim_abc_tooltip_exit.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/anim_btn_checkbox_to_checked_box_inner_merged_animation.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/anim_btn_checkbox_to_checked_box_outer_merged_animation.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/anim_btn_checkbox_to_checked_icon_null_animation.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/anim_btn_checkbox_to_unchecked_box_inner_merged_animation.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/anim_btn_checkbox_to_unchecked_check_path_merged_animation.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/anim_btn_checkbox_to_unchecked_icon_null_animation.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/anim_btn_radio_to_off_mtrl_dot_group_animation.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/anim_btn_radio_to_off_mtrl_ring_outer_animation.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/anim_btn_radio_to_off_mtrl_ring_outer_path_animation.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/anim_btn_radio_to_on_mtrl_dot_group_animation.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/anim_btn_radio_to_on_mtrl_ring_outer_animation.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/anim_btn_radio_to_on_mtrl_ring_outer_path_animation.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/anim_catalyst_fade_in.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/anim_catalyst_fade_out.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/anim_catalyst_push_up_in.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/anim_catalyst_push_up_out.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/anim_catalyst_slide_down.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/anim_catalyst_slide_up.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/color-v21_abc_btn_colored_borderless_text_material.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/color-v23_abc_btn_colored_borderless_text_material.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/color-v23_abc_btn_colored_text_material.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/color-v23_abc_color_highlight_material.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/color-v23_abc_tint_btn_checkable.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/color-v23_abc_tint_default.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/color-v23_abc_tint_edittext.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/color-v23_abc_tint_seek_thumb.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/color-v23_abc_tint_spinner.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/color-v23_abc_tint_switch_track.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/color_abc_background_cache_hint_selector_material_dark.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/color_abc_background_cache_hint_selector_material_light.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/color_abc_btn_colored_borderless_text_material.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/color_abc_btn_colored_text_material.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/color_abc_hint_foreground_material_dark.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/color_abc_hint_foreground_material_light.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/color_abc_primary_text_disable_only_material_dark.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/color_abc_primary_text_disable_only_material_light.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/color_abc_primary_text_material_dark.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/color_abc_primary_text_material_light.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/color_abc_search_url_text.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/color_abc_secondary_text_material_dark.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/color_abc_secondary_text_material_light.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/color_abc_tint_btn_checkable.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/color_abc_tint_default.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/color_abc_tint_edittext.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/color_abc_tint_seek_thumb.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/color_abc_tint_spinner.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/color_abc_tint_switch_track.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/color_switch_thumb_material_dark.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/color_switch_thumb_material_light.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_black_16dp.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_black_36dp.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_black_48dp.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_half_black_16dp.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_half_black_36dp.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_star_half_black_48dp.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_focused_holo.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_longpressed_holo.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_pressed_holo_dark.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_pressed_holo_light.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_popup_background_mtrl_mult.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_normal.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-ldrtl-xhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_black_16dp.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_black_36dp.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_black_48dp.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_half_black_16dp.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_half_black_36dp.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_half_black_48dp.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_focused_holo.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_longpressed_holo.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_pressed_holo_dark.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_pressed_holo_light.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_popup_background_mtrl_mult.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_normal.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_normal.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-v21_abc_action_bar_item_background_material.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-v21_abc_btn_colored_material.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-v21_abc_dialog_material_background.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-v21_abc_edit_text_material.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-v21_abc_list_divider_material.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-v21_notification_action_background.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-v23_abc_control_background_material.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-watch-v20_abc_dialog_material_background.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_black_16dp.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_black_36dp.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_black_48dp.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_half_black_16dp.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_half_black_36dp.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_half_black_48dp.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_focused_holo.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_longpressed_holo.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_pressed_holo_dark.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_pressed_holo_light.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_black_16dp.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_black_36dp.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_black_48dp.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_half_black_16dp.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_half_black_36dp.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_half_black_48dp.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_focused_holo.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_longpressed_holo.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_pressed_holo_dark.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_pressed_holo_light.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_black_16dp.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_black_36dp.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_black_48dp.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_half_black_16dp.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_half_black_36dp.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_half_black_48dp.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_abc_btn_borderless_material.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_abc_btn_check_material.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_abc_btn_check_material_anim.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_abc_btn_colored_material.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_abc_btn_default_mtrl_shape.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_abc_btn_radio_material.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_abc_btn_radio_material_anim.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_abc_cab_background_internal_bg.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_abc_cab_background_top_material.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_abc_dialog_material_background.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_abc_edit_text_material.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_abc_ic_ab_back_material.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_abc_ic_arrow_drop_right_black_24dp.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_abc_ic_clear_material.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_abc_ic_go_search_api_material.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_abc_ic_menu_overflow_material.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_abc_ic_search_api_material.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_abc_ic_voice_search_api_material.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_abc_item_background_holo_dark.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_abc_item_background_holo_light.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_abc_list_divider_material.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_abc_list_selector_background_transition_holo_dark.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_abc_list_selector_background_transition_holo_light.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_abc_list_selector_holo_dark.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_abc_list_selector_holo_light.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_abc_ratingbar_indicator_material.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_abc_ratingbar_material.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_abc_ratingbar_small_material.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_abc_seekbar_thumb_material.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_abc_seekbar_tick_mark_material.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_abc_seekbar_track_material.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_abc_spinner_textfield_background_material.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_abc_switch_thumb_material.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_abc_tab_indicator_material.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_abc_text_cursor_material.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_abc_textfield_search_material.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_abc_vector_test.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_btn_checkbox_checked_mtrl.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_btn_checkbox_checked_to_unchecked_mtrl_animation.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_btn_checkbox_unchecked_mtrl.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_btn_checkbox_unchecked_to_checked_mtrl_animation.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_btn_radio_off_mtrl.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_btn_radio_off_to_on_mtrl_animation.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_btn_radio_on_mtrl.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_btn_radio_on_to_off_mtrl_animation.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_notification_bg.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_notification_bg_low.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_notification_icon_background.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_notification_tile_bg.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_redbox_top_border_background.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_tooltip_frame_dark.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/drawable_tooltip_frame_light.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/interpolator_btn_checkbox_checked_mtrl_animation_interpolator_0.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/interpolator_btn_checkbox_checked_mtrl_animation_interpolator_1.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/interpolator_btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/interpolator_btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/interpolator_btn_radio_to_off_mtrl_animation_interpolator_0.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/interpolator_btn_radio_to_on_mtrl_animation_interpolator_0.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/interpolator_fast_out_slow_in.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout-v16_notification_template_custom_big.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout-v21_notification_action.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout-v21_notification_action_tombstone.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout-v21_notification_template_custom_big.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout-v21_notification_template_icon_group.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout-v26_abc_screen_toolbar.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout-watch-v20_abc_alert_dialog_button_bar_material.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout-watch-v20_abc_alert_dialog_title_material.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout_abc_action_bar_title_item.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout_abc_action_bar_up_container.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout_abc_action_menu_item_layout.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout_abc_action_menu_layout.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout_abc_action_mode_bar.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout_abc_action_mode_close_item_material.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout_abc_activity_chooser_view.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout_abc_activity_chooser_view_list_item.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout_abc_alert_dialog_button_bar_material.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout_abc_alert_dialog_material.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout_abc_alert_dialog_title_material.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout_abc_cascading_menu_item_layout.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout_abc_dialog_title_material.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout_abc_expanded_menu_layout.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout_abc_list_menu_item_checkbox.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout_abc_list_menu_item_icon.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout_abc_list_menu_item_layout.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout_abc_list_menu_item_radio.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout_abc_popup_menu_header_item_layout.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout_abc_popup_menu_item_layout.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout_abc_screen_content_include.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout_abc_screen_simple.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout_abc_screen_simple_overlay_action_mode.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout_abc_screen_toolbar.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout_abc_search_dropdown_item_icons_2line.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout_abc_search_view.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout_abc_select_dialog_material.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout_abc_tooltip.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout_custom_dialog.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout_dev_loading_view.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout_fps_view.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout_notification_action.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout_notification_action_tombstone.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout_notification_template_icon_group.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout_notification_template_part_chronometer.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout_notification_template_part_time.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout_redbox_item_frame.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout_redbox_item_title.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout_redbox_view.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout_select_dialog_item_material.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout_select_dialog_multichoice_material.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout_select_dialog_singlechoice_material.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/layout_support_simple_spinner_dropdown_item.xml.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-af_values-af.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-am_values-am.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-ar_values-ar.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-as_values-as.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-az_values-az.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-b+sr+Latn_values-b+sr+Latn.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-be_values-be.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-bg_values-bg.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-bn_values-bn.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-bs_values-bs.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-ca_values-ca.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-cs_values-cs.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-da_values-da.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-de_values-de.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-el_values-el.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-en-rAU_values-en-rAU.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-en-rCA_values-en-rCA.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-en-rGB_values-en-rGB.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-en-rIN_values-en-rIN.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-en-rXC_values-en-rXC.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-es-rUS_values-es-rUS.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-es_values-es.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-et_values-et.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-eu_values-eu.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-fa_values-fa.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-fi_values-fi.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-fr-rCA_values-fr-rCA.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-fr_values-fr.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-gl_values-gl.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-gu_values-gu.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-h720dp-v13_values-h720dp-v13.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-hdpi-v4_values-hdpi-v4.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-hi_values-hi.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-hr_values-hr.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-hu_values-hu.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-hy_values-hy.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-in_values-in.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-is_values-is.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-it_values-it.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-iw_values-iw.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-ja_values-ja.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-ka_values-ka.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-kk_values-kk.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-km_values-km.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-kn_values-kn.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-ko_values-ko.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-ky_values-ky.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-land_values-land.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-large-v4_values-large-v4.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-ldltr-v21_values-ldltr-v21.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-lo_values-lo.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-lt_values-lt.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-lv_values-lv.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-mk_values-mk.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-ml_values-ml.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-mn_values-mn.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-mr_values-mr.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-ms_values-ms.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-my_values-my.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-nb_values-nb.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-ne_values-ne.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-night-v8_values-night-v8.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-nl_values-nl.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-or_values-or.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-pa_values-pa.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-pl_values-pl.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-port_values-port.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-pt-rBR_values-pt-rBR.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-pt-rPT_values-pt-rPT.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-pt_values-pt.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-ro_values-ro.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-ru_values-ru.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-si_values-si.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-sk_values-sk.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-sl_values-sl.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-sq_values-sq.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-sr_values-sr.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-sv_values-sv.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-sw600dp-v13_values-sw600dp-v13.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-sw_values-sw.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-ta_values-ta.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-te_values-te.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-th_values-th.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-tl_values-tl.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-tr_values-tr.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-uk_values-uk.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-ur_values-ur.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-uz_values-uz.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-v16_values-v16.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-v17_values-v17.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-v18_values-v18.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-v21_values-v21.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-v22_values-v22.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-v23_values-v23.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-v24_values-v24.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-v25_values-v25.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-v26_values-v26.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-v28_values-v28.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-vi_values-vi.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-watch-v20_values-watch-v20.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-watch-v21_values-watch-v21.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-xlarge-v4_values-xlarge-v4.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-zh-rCN_values-zh-rCN.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-zh-rHK_values-zh-rHK.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-zh-rTW_values-zh-rTW.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values-zu_values-zu.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/values_values.arsc.flat, it is a binary file.
+android/app/build/intermediates/res/merged/debug/xml_rn_dev_preferences.xml.flat, it is a binary file.
+android/app/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt, code is 1411, comment is 0, blank is 0.
+android/app/build/intermediates/signing_config/debug/out/signing-config.json, code is 1, comment is 0, blank is 0.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libc++_shared.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libevent-2.1.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libevent_core-2.1.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libevent_extra-2.1.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libfb.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libfbjni.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libflipper.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libfolly_futures.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libfolly_json.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libglog.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libglog_init.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libhermes-executor-debug.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libhermes-executor-release.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libhermes-inspector.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libimagepipeline.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libjsc.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libjscexecutor.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libjsijniprofiler.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libjsinspector.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libnative-filters.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libnative-imagetranscoder.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libreactnativeblob.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libreactnativejni.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/arm64-v8a/libyoga.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libc++_shared.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libevent-2.1.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libevent_core-2.1.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libevent_extra-2.1.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libfb.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libfbjni.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libflipper.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libfolly_futures.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libfolly_json.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libglog.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libglog_init.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libhermes-executor-debug.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libhermes-executor-release.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libhermes-inspector.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libimagepipeline.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libjsc.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libjscexecutor.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libjsijniprofiler.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libjsinspector.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libnative-filters.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libnative-imagetranscoder.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libreactnativeblob.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libreactnativejni.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/armeabi-v7a/libyoga.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/x86/libc++_shared.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/x86/libevent-2.1.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/x86/libevent_core-2.1.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/x86/libevent_extra-2.1.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/x86/libfb.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/x86/libfbjni.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/x86/libflipper.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/x86/libfolly_futures.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/x86/libfolly_json.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/x86/libglog.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/x86/libglog_init.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/x86/libhermes-executor-debug.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/x86/libhermes-executor-release.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/x86/libhermes-inspector.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/x86/libimagepipeline.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/x86/libjsc.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/x86/libjscexecutor.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/x86/libjsijniprofiler.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/x86/libjsinspector.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/x86/libnative-filters.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/x86/libnative-imagetranscoder.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/x86/libreactnativeblob.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/x86/libreactnativejni.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/x86/libyoga.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/libc++_shared.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/libevent-2.1.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/libevent_core-2.1.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/libevent_extra-2.1.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/libfb.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/libfbjni.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/libflipper.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/libfolly_futures.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/libfolly_json.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/libglog.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/libglog_init.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/libhermes-executor-debug.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/libhermes-executor-release.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/libhermes-inspector.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/libimagepipeline.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/libjsc.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/libjscexecutor.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/libjsijniprofiler.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/libjsinspector.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/libnative-filters.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/libnative-imagetranscoder.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/libreactnativeblob.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/libreactnativejni.so, it is a binary file.
+android/app/build/intermediates/stripped_native_libs/debug/out/lib/x86_64/libyoga.so, it is a binary file.
+android/app/build/intermediates/symbols/debug/R.txt, code is 1895, comment is 0, blank is 0.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/activity/R$attr.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/activity/R$color.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/activity/R$dimen.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/activity/R$drawable.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/activity/R$id.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/activity/R$integer.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/activity/R$layout.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/activity/R$string.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/activity/R$style.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/activity/R$styleable.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/activity/R.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/appcompat/R$anim.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/appcompat/R$attr.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/appcompat/R$bool.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/appcompat/R$color.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/appcompat/R$dimen.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/appcompat/R$drawable.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/appcompat/R$id.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/appcompat/R$integer.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/appcompat/R$interpolator.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/appcompat/R$layout.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/appcompat/R$string.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/appcompat/R$style.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/appcompat/R$styleable.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/appcompat/R.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/appcompat/resources/R$attr.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/appcompat/resources/R$color.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/appcompat/resources/R$dimen.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/appcompat/resources/R$drawable.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/appcompat/resources/R$id.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/appcompat/resources/R$integer.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/appcompat/resources/R$layout.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/appcompat/resources/R$string.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/appcompat/resources/R$style.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/appcompat/resources/R$styleable.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/appcompat/resources/R.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/arch/core/R.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/core/R$attr.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/core/R$color.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/core/R$dimen.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/core/R$drawable.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/core/R$id.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/core/R$integer.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/core/R$layout.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/core/R$string.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/core/R$style.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/core/R$styleable.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/core/R.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/cursoradapter/R.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/customview/R$attr.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/customview/R$color.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/customview/R$dimen.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/customview/R$drawable.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/customview/R$id.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/customview/R$integer.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/customview/R$layout.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/customview/R$string.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/customview/R$style.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/customview/R$styleable.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/customview/R.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/drawerlayout/R$attr.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/drawerlayout/R$color.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/drawerlayout/R$dimen.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/drawerlayout/R$drawable.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/drawerlayout/R$id.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/drawerlayout/R$integer.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/drawerlayout/R$layout.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/drawerlayout/R$string.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/drawerlayout/R$style.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/drawerlayout/R$styleable.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/drawerlayout/R.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/fragment/R$attr.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/fragment/R$color.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/fragment/R$dimen.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/fragment/R$drawable.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/fragment/R$id.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/fragment/R$integer.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/fragment/R$layout.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/fragment/R$string.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/fragment/R$style.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/fragment/R$styleable.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/fragment/R.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/interpolator/R.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/lifecycle/livedata/core/R.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/lifecycle/livedata/R.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/lifecycle/R.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/lifecycle/viewmodel/R.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/loader/R$attr.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/loader/R$color.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/loader/R$dimen.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/loader/R$drawable.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/loader/R$id.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/loader/R$integer.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/loader/R$layout.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/loader/R$string.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/loader/R$style.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/loader/R$styleable.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/loader/R.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/savedstate/R.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/swiperefreshlayout/R$attr.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/swiperefreshlayout/R$color.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/swiperefreshlayout/R$dimen.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/swiperefreshlayout/R$drawable.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/swiperefreshlayout/R$id.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/swiperefreshlayout/R$integer.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/swiperefreshlayout/R$layout.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/swiperefreshlayout/R$string.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/swiperefreshlayout/R$style.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/swiperefreshlayout/R$styleable.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/swiperefreshlayout/R.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/vectordrawable/animated/R$attr.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/vectordrawable/animated/R$color.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/vectordrawable/animated/R$dimen.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/vectordrawable/animated/R$drawable.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/vectordrawable/animated/R$id.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/vectordrawable/animated/R$integer.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/vectordrawable/animated/R$layout.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/vectordrawable/animated/R$string.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/vectordrawable/animated/R$style.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/vectordrawable/animated/R$styleable.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/vectordrawable/animated/R.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/vectordrawable/R$attr.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/vectordrawable/R$color.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/vectordrawable/R$dimen.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/vectordrawable/R$drawable.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/vectordrawable/R$id.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/vectordrawable/R$integer.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/vectordrawable/R$layout.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/vectordrawable/R$string.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/vectordrawable/R$style.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/vectordrawable/R$styleable.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/vectordrawable/R.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/versionedparcelable/R.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/viewpager/R$attr.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/viewpager/R$color.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/viewpager/R$dimen.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/viewpager/R$drawable.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/viewpager/R$id.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/viewpager/R$integer.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/viewpager/R$layout.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/viewpager/R$string.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/viewpager/R$style.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/viewpager/R$styleable.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/androidx/viewpager/R.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/eduformmobile/BuildConfig.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/eduformmobile/MainActivity.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/eduformmobile/MainApplication$1.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/eduformmobile/MainApplication.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/eduformmobile/R$anim.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/eduformmobile/R$attr.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/eduformmobile/R$bool.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/eduformmobile/R$color.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/eduformmobile/R$dimen.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/eduformmobile/R$drawable.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/eduformmobile/R$id.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/eduformmobile/R$integer.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/eduformmobile/R$interpolator.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/eduformmobile/R$layout.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/eduformmobile/R$mipmap.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/eduformmobile/R$string.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/eduformmobile/R$style.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/eduformmobile/R$styleable.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/eduformmobile/R$xml.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/eduformmobile/R.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/eduformmobile/ReactNativeFlipper$1.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/eduformmobile/ReactNativeFlipper$2$1.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/eduformmobile/ReactNativeFlipper$2.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/eduformmobile/ReactNativeFlipper.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/drawee/backends/pipeline/R$attr.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/drawee/backends/pipeline/R$id.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/drawee/backends/pipeline/R$styleable.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/drawee/backends/pipeline/R.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/drawee/R$attr.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/drawee/R$id.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/drawee/R$styleable.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/drawee/R.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/fbcore/R.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/flipper/plugins/fresco/R$anim.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/flipper/plugins/fresco/R$attr.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/flipper/plugins/fresco/R$bool.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/flipper/plugins/fresco/R$color.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/flipper/plugins/fresco/R$dimen.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/flipper/plugins/fresco/R$drawable.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/flipper/plugins/fresco/R$id.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/flipper/plugins/fresco/R$integer.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/flipper/plugins/fresco/R$interpolator.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/flipper/plugins/fresco/R$layout.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/flipper/plugins/fresco/R$string.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/flipper/plugins/fresco/R$style.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/flipper/plugins/fresco/R$styleable.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/flipper/plugins/fresco/R.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/flipper/plugins/network/R$anim.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/flipper/plugins/network/R$attr.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/flipper/plugins/network/R$bool.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/flipper/plugins/network/R$color.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/flipper/plugins/network/R$dimen.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/flipper/plugins/network/R$drawable.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/flipper/plugins/network/R$id.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/flipper/plugins/network/R$integer.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/flipper/plugins/network/R$interpolator.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/flipper/plugins/network/R$layout.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/flipper/plugins/network/R$string.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/flipper/plugins/network/R$style.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/flipper/plugins/network/R$styleable.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/flipper/plugins/network/R.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/flipper/R$anim.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/flipper/R$attr.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/flipper/R$bool.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/flipper/R$color.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/flipper/R$dimen.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/flipper/R$drawable.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/flipper/R$id.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/flipper/R$integer.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/flipper/R$interpolator.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/flipper/R$layout.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/flipper/R$string.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/flipper/R$style.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/flipper/R$styleable.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/flipper/R.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/fresco/flipper/R$attr.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/fresco/flipper/R$id.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/fresco/flipper/R$styleable.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/fresco/flipper/R.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/fresco/stetho/R$attr.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/fresco/stetho/R$id.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/fresco/stetho/R$styleable.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/fresco/stetho/R.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/imagepipeline/backends/okhttp3/R.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/imagepipeline/R.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/imagepipelinebase/R.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/nativefilters/R.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/nativeimagetranscoder/R.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/react/PackageList.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/react/R$anim.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/react/R$attr.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/react/R$bool.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/react/R$color.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/react/R$dimen.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/react/R$drawable.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/react/R$id.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/react/R$integer.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/react/R$layout.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/react/R$string.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/react/R$style.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/react/R$styleable.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/react/R$xml.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/react/R.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/com/facebook/soloader/R.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/0/org/webkit/androidjsc/R.dex, it is a binary file.
+android/app/build/intermediates/transforms/dexBuilder/debug/__content__.json, code is 1, comment is 0, blank is 0.
+android/app/build/outputs/apk/debug/app-debug.apk, it is a binary file.
+android/app/build/outputs/apk/debug/output.json, code is 1, comment is 0, blank is 0.
+android/app/build/outputs/logs/manifest-merger-debug-report.txt, code is 233, comment is 0, blank is 0.
+android/app/build_defs.bzl, code is 16, comment is 0, blank is 3.
+android/app/debug.keystore, it is a binary file.
+android/app/proguard-rules.pro, code is 9, comment is 1, blank is 1.
+android/app/src/debug/AndroidManifest.xml, code is 6, comment is 0, blank is 2.
+android/app/src/debug/java/com/eduformmobile/ReactNativeFlipper.java, code is 59, comment is 8, blank is 5.
+android/app/src/main/AndroidManifest.xml, code is 24, comment is 0, blank is 3.
+android/app/src/main/java/com/eduformmobile/MainActivity.java, code is 8, comment is 4, blank is 3.
+android/app/src/main/java/com/eduformmobile/MainApplication.java, code is 59, comment is 13, blank is 8.
+android/app/src/main/res/mipmap-hdpi/ic_launcher.png, it is a binary file.
+android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png, it is a binary file.
+android/app/src/main/res/mipmap-mdpi/ic_launcher.png, it is a binary file.
+android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png, it is a binary file.
+android/app/src/main/res/mipmap-xhdpi/ic_launcher.png, it is a binary file.
+android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png, it is a binary file.
+android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png, it is a binary file.
+android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png, it is a binary file.
+android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png, it is a binary file.
+android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png, it is a binary file.
+android/app/src/main/res/values/strings.xml, code is 3, comment is 0, blank is 0.
+android/app/src/main/res/values/styles.xml, code is 5, comment is 2, blank is 2.
+android/build.gradle, code is 29, comment is 5, blank is 4.
+android/gradle.properties, code is 16, comment is 2, blank is 5.
+android/gradle/wrapper/gradle-wrapper.jar, it is a binary file.
+android/gradle/wrapper/gradle-wrapper.properties, code is 5, comment is 1, blank is 0.
+android/gradlew, code is 77, comment is 1, blank is 11.
+android/gradlew.bat, code is 42, comment is 0, blank is 9.
+android/settings.gradle, code is 3, comment is 0, blank is 0.
+App.js, code is 102, comment is 7, blank is 5.
+app.json, code is 4, comment is 0, blank is 0.
+babel.config.js, code is 3, comment is 0, blank is 0.
+index.js, code is 4, comment is 3, blank is 2.
+ios/eduFormMobile-tvOS/Info.plist, code is 53, comment is 0, blank is 0.
+ios/eduFormMobile-tvOSTests/Info.plist, code is 24, comment is 0, blank is 0.
+ios/eduFormMobile.xcodeproj/project.pbxproj, code is 764, comment is 29, blank is 14.
+ios/eduFormMobile.xcodeproj/xcshareddata/xcschemes/eduFormMobile-tvOS.xcscheme, code is 88, comment is 0, blank is 0.
+ios/eduFormMobile.xcodeproj/xcshareddata/xcschemes/eduFormMobile.xcscheme, code is 88, comment is 0, blank is 0.
+ios/eduFormMobile/AppDelegate.h, code is 5, comment is 0, blank is 3.
+ios/eduFormMobile/AppDelegate.m, code is 48, comment is 0, blank is 10.
+ios/eduFormMobile/Base.lproj/LaunchScreen.xib, code is 42, comment is 0, blank is 0.
+ios/eduFormMobile/Images.xcassets/AppIcon.appiconset/Contents.json, code is 38, comment is 0, blank is 0.
+ios/eduFormMobile/Images.xcassets/Contents.json, code is 6, comment is 0, blank is 0.
+ios/eduFormMobile/Info.plist, code is 57, comment is 0, blank is 0.
+ios/eduFormMobile/main.m, code is 7, comment is 0, blank is 2.
+ios/eduFormMobileTests/eduFormMobileTests.m, code is 51, comment is 0, blank is 14.
+ios/eduFormMobileTests/Info.plist, code is 24, comment is 0, blank is 0.
+ios/Podfile, code is 92, comment is 0, blank is 12.
+metro.config.js, code is 10, comment is 6, blank is 1.
+package.json, code is 32, comment is 0, blank is 0.
+yarn.lock, code is 5209, comment is 15, blank is 1218.
+===============================================================================
